@@ -55,9 +55,9 @@ Version=1.0
 Name=Lapce
 Exec=$HOME/lapce/target/release/lapce
 Path=$HOME/lapce/target/release/
-Icon=$HOME/lapce/extra/images/logo.svg
+Icon=$HOME/lapce/extra/images/logo_color.svg
 Terminal=false
 Type=Application
-Categories=Utility;Development;" >> $HOME/.local/share/applications/lapce.desktop
+Categories=Utility;Development;" > $HOME/.local/share/applications/lapce.desktop
 xdg-desktop-menu forceupdate
 ```
